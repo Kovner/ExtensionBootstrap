@@ -1,0 +1,1 @@
+Tableau Extensions Starter Project that allows you to clone and get started. Includes snippets of querying dashboard information, filtering, listening for events, and using the configuration functionality of the Extensions API.
