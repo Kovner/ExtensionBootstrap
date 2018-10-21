@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Starter Extension</title>
+  <title>Starter Extension Config</title>
 
   <!-- jQuery -->
   <script src="./js/jquery-3.3.1.min.js"></script>
@@ -13,18 +13,18 @@
   <!-- Extensions API Library (this will be hosted on a CDN eventually) -->
   <script src="./js/tableau-extensions-1.0.0.min.js"></script>
 
-  <!-- Our extensions's code -->
-  <script src="./js/myExtension.js"></script>
-</head>
-    <h2>Hello Extensions World</h2>
-    <div id="currentSetting"><b>Current setting value: </b></div>
-    <!-- Empty divs for us to render tableau-ui React components into -->
-    <div id="configButton"></div>
-    <div id="filterButton"></div>
+  <!-- Libraries required for tableau-ui -->
+  <script src="./js/react_16_5_2.development.js"></script>
+  <script src="./js/react-dom_16_5_2.development.js"></script>
+  <script src="./js/tableau-ui.min.js"></script>
 
-    <!-- divs to use jquery to list out dashboard info -->
-    <div id="worksheetsList"><b>Worksheets in this dashboard: </b></div>
-    <div id="filterList"><b>Filters in this dashboard: </b></div>
+  <!-- Our extensions's code -->
+  <script src="./js/configure.js"></script>
+</head>
+    <!-- Empty divs for us to render tableau-ui React components into -->
+    <div id="configTextBox"></div>
+    <div id="saveButton"></div>
+
 <body>
 </body>
 
