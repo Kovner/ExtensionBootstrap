@@ -20,4 +20,4 @@ To use:
 - Drag an Extension object to the dashboard, choose 'My Extensions'
 - Navigate to 'myExtension.trex' in this repo.
 
-Alternatively, Here is a glitch.com project which you can 'remix'. This will give you an already deployed version of this repo. You will have to modify myExtension.trex to point to the correct url.
+Alternatively, [Here is a glitch.com project](https://glitch.com/edit/#!/auspicious-needle) which you can 'remix'. This will give you an already deployed version of this repo. You will have to modify myExtension.trex to point to the correct url.
