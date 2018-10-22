@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Starter Extension</title>
+
+  <!-- jQuery -->
+  <script src="./js/jquery-3.3.1.min.js"></script>
+
+  <!-- Extensions API Library (this will be hosted on a CDN eventually) -->
+  <script src="./js/tableau-extensions-1.0.0.min.js"></script>
+
+  <!-- Our extensions's code -->
+  <script src="./js/myExtension.js"></script>
+</head>
+    <h2>Hello Extensions World</h2>
+    <div id="currentSetting"><b>Current setting value: </b></div>
+    <!-- Empty divs for us to render tableau-ui React components into -->
+    <div id="configButton"></div>
+    <div id="filterButton"></div>
+
+    <!-- divs to use jquery to list out dashboard info -->
+    <div id="worksheetsList"><b>Worksheets in this dashboard: </b></div>
+    <div id="filterList"><b>Filters in this dashboard: </b></div>
+<body>
+</body>
+
+</html>
